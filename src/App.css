@@ -1,0 +1,79 @@
+a.Hello.navbar-brand {
+    color: #fa0000;
+}
+nav.navbar.header-top {
+    background: #dcdcdc !important;
+}
+nav.navbar.header-top img.logo {
+    width: 100px;
+}
+
+nav.navbar.header-top ul.navbar-nav.mr-auto {
+    margin: 0 auto;
+}
+nav.navbar.header-top li.nav-item a.nav-link {
+    padding: 10px 20px;
+    color: #000;
+}
+nav.navbar.header-top form.form-inline button.btn.btn-outline-success {
+    background: #000;
+    color: #fff;
+    border: 1px solid #dcdcdc;
+}
+nav.navbar.header-top form.form-inline button.btn.btn-outline-success:hover {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+
+} 
+
+.footermain {
+    background: #dcdcdc;
+    padding: 20px 20px;
+}
+
+.logo-footer {
+    text-align: center;
+}
+
+p.copyright-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+
+.footermain ul {
+    padding: 0px;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footermain ul li a {
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #8b8b8b;
+    margin: 5px;
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    transition: all ease-in-out 0.6s;
+    text-decoration: none;
+    justify-content: center;
+    background: #000000;
+}
+
+.footermain ul li a:hover {
+    background: #f0f0f0;
+    color: #000;
+    border-color: #f0f0f0;
+    transition: all ease-in-out 0.6s;
+}
